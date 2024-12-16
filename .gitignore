@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask instance and environment files
+instance/
+.env
+*.env
+.env.*
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+logs/
+*.pid
+
+# Database files
+*.db
+*.sqlite3
+*.sqlite
+
+# Pytest cache and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Static and media files
+staticfiles/
+media/
+
+# Cache files
+.cache/
+*.cache
+*.egg-info/
+*.eggs/
+*.egg
+
+# IDE / Editor specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Docker files
+docker-compose.override.yml
+.dockerignore
